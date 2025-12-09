@@ -115,3 +115,72 @@ If you’re extending or adopting JAKOVA-NET:
 
 For now, this file is a working scratchpad that shadows the formal paper and
 keeps developers oriented while we build.
+
+# Ideology & Ownership (JAKOVA-NET Prime)
+
+This file is a human-readable bridge to the full spec  
+**“JAKOVA-NET Prime: Ownership of Ideologies”** (see Zenodo for the citable version).
+
+## 1. Why bother with ideology?
+
+Most systems treat “ideas” as free-floating content:
+
+- memes
+- prompts
+- config files
+- ad-targeting fodder
+
+JAKOVA-NET treats **ideologies as objects** inside the operating system:
+
+- they have IDs
+- they have owners
+- they have routing rules
+
+You cannot route power through an ideology without knowing where it came from and who is accountable.
+
+---
+
+## 2. Basic model
+
+At a high level:
+
+- An **ideology** is a structured object describing:
+  - assumptions about the world
+  - goals and constraints
+  - safety requirements
+
+- Ideologies can be:
+  - attached to universes
+  - attached to engines
+  - attached to users or roles
+
+---
+
+## 3. Ownership
+
+The Prime spec defines:
+
+- how ideologies are **attributed** (who authored what)
+- how credit and responsibility are assigned
+- how conflicting ideologies are resolved or isolated
+
+The intent is to avoid:
+
+- “free idea” extraction with no credit
+- anonymous governance over human lives
+- opaque black-box decision-making
+
+---
+
+## 4. How it touches the code
+
+Any serious JAKOVA-NET deployment should:
+
+- treat ideologies as first-class objects in its state
+- log which ideology affected which decision
+- make it possible to audit decisions back to ideological inputs
+
+For the demo phase, this repo focuses on the **state and engine pattern**.  
+Prime is the guardrail that prevents that pattern being bent into another black-box.
+
+For full detail, read the Zenodo paper and cite that in serious work.
