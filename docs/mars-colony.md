@@ -157,7 +157,7 @@ Minimal lattice for Mars:
    - Experimental forks are clearly tagged as non-live, even if they share engines and hardware.
 
 For deeper ideology / ownership details, see `docs/ideology.md` and the Zenodo ideology spec.
-
+ 
 ---
 
 ## 5. Universe files for Mars
