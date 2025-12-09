@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "universe_id": "tiny_local_cosmos_v0",
+    "title": "Tiny Local Cosmos Demo",
+    "version": "0.1.0",
+    "created_at": "2025-12-09T00:00:00Z",
+    "notes": "Minimal universe for schema + viewer tests."
+  },
+  "camera": {
+    "mode": "orbit",
+    "position": [0.0, 5.0, 15.0],
+    "target": [0.0, 0.0, 0.0],
+    "fov_deg": 60.0
+  },
+  "objects": [
+    {
+      "id": "star_home",
+      "type": "star",
+      "position": [0.0, 0.0, 0.0],
+      "scale": 1.0,
+      "labels": ["home-star"],
+      "data": {
+        "spectral_type": "G2V",
+        "luminosity_rel_sun": 1.0
+      }
+    },
+    {
+      "id": "planet_1",
+      "type": "planet",
+      "position": [5.0, 0.0, 0.0],
+      "scale": 0.5,
+      "labels": ["demo-planet"],
+      "data": {
+        "description": "Just a test world.",
+        "orbit_period_days": 365.0
+      }
+    },
+    {
+      "id": "probe_1",
+      "type": "probe",
+      "position": [0.0, 2.0, 8.0],
+      "scale": 0.2,
+      "labels": ["observer"],
+      "data": {
+        "owner": "local-operator",
+        "mission": "survey"
+      }
+    }
+  ]
+}
