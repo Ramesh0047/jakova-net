@@ -92,3 +92,8 @@ Short version:
     ├── state-schema.v0.json     # Draft JSON schema for universe state
     └── examples/
         └── tiny_local_cosmos.json   # Minimal example universe
+
+## License
+
+This repository is released under the MIT License.  
+See [`LICENSE`](./LICENSE) for details.
